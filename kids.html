@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slopis</title>
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #ff0000; /* Red header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff; /* White text in header */
+        }
+
+        nav {
+            background-color: #333; /* Dark navigation bar */
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ff0000; /* Red links */
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #111; /* Slightly lighter black section */
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333; /* Dark footer */
+            color: #fff; /* White text in footer */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>slopis</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#git-commands">Git Commands</a>
+    </nav>
+    <main>
+        <h2>About Me</h2>
+        <p>GAMBA</p>
+        <section id="git-commands">
+            <h2>Git Commands</h2>
+            <ul>
+                <li><strong>git init:</strong> Initialize a new Git repository.</li>
+                <li><strong>git clone:</strong> Clone an existing repository.</li>
+                <li><strong>git add:</strong> Add files to staging area.</li>
+                <li><strong>git commit:</strong> Commit changes to the repository.</li>
+                <li><strong>git status:</strong> Show the working tree status.</li>
+                <li><strong>git push:</strong> Push changes to a remote repository.</li>
+                <li><strong>git pull:</strong> Fetch and merge changes from a remote repository.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 slopis</p>
+    </footer>
+</body>
+</html>
